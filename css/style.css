@@ -12,6 +12,10 @@
   z-index: 1
 }
 
+#header_top ul {
+  margin-bottom: 0px;
+}
+
 #header_top li a{
   text-decoration: none;
   list-style: none;
@@ -48,8 +52,7 @@
   vertical-align: sub;
 }
 
-
-img {
+header img {
   height: 30px;
 }
 
@@ -60,9 +63,9 @@ img {
 }
 
 #title {
-  width: 90%;
+  width: 100%;
   color: white;
-  margin: 70px 0px;
+  margin-top: 70px;
 }
 
 #title h1 {
@@ -70,15 +73,14 @@ img {
 }
 
 #title p {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #login_box {
-  margin: 70px 0px;
-
   padding: 20px 15px;
   background-color: white;
   border-radius: 3px;
+  margin-bottom: 70px;
 }
 
 #login_box h3 {
@@ -107,4 +109,26 @@ img {
   position: absolute;
   left:5px;
   top:5px;
+}
+
+
+@media screen and (min-width:768px ) {
+
+  #login_box {
+    margin: 70px 0px;
+  }
+
+  #title {
+    width: 90%
+  }
+
+  #title p {
+    font-size: 22px;
+  }
+
+
+
+
+
+
 }
