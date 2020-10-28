@@ -1,0 +1,55 @@
+/* [class*="col-"]{
+  border: 1px solid black;
+} */
+
+#header_top {
+  height: 100%;
+  padding: 20px 0px;
+  background-color: white;
+}
+
+#header_top ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+#header_top li {
+  display: inline-block;
+  color: #031B4E;
+  padding:5px 10px;
+}
+
+#list_right li {
+padding: 0px 10px;
+}
+
+#btn_signin {
+  color: #006AFC;
+  border: 1px solid #006AFC;
+}
+
+#btn_signin:hover {
+  color: white;
+  background-color: #006AFC;
+}
+
+#hamb_icon {
+  color: #006AFC;
+  font-size: 20px;
+  vertical-align: sub;
+}
+
+header {
+  background-color: blue;
+}
+
+img {
+  height: 30px;
+}
+
+
+#jumbotron [class*="col-"] {
+  height: 450px;
+  background-color: blue;
+
+}
