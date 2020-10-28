@@ -69,7 +69,7 @@ header img {
 }
 
 #title h1 {
-  font-size: 60px;
+  font-size: 44px;
 }
 
 #title p {
@@ -126,7 +126,12 @@ header img {
     font-size: 22px;
   }
 
+@media screen and (min-width:1200px) {
 
+  #title h1 {
+    font-size: 55px;
+  }
+}
 
 
 
