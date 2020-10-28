@@ -19,6 +19,10 @@
   padding:5px 10px;
 }
 
+#header_top li:hover {
+  color: #006AFC;
+}
+
 #list_right li {
 padding: 0px 10px;
 }
