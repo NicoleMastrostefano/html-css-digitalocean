@@ -47,9 +47,6 @@
   vertical-align: sub;
 }
 
-header {
-
-}
 
 img {
   height: 30px;
@@ -57,7 +54,9 @@ img {
 
 #jumbotron{
   margin-top: 70px;
-  background-color: #006AFC;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+
+  background-size: cover;
 }
 
 #title {
@@ -75,7 +74,8 @@ img {
 }
 
 #login_box {
-  margin-top: 40px;
+  margin: 70px 0px;
+
   padding: 20px 15px;
   background-color: white;
   border-radius: 3px;
@@ -97,12 +97,4 @@ img {
 #btn_account{
   color: white;
   background-color: #0080FF;
-}
-
-
-
-
-#jumbotron [class*="col-"] {
-
-  background-color: #006AFC;
 }
