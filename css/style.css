@@ -12,18 +12,19 @@
   z-index: 1
 }
 
-#header_top ul {
+#header_top li a{
+  text-decoration: none;
   list-style: none;
   margin-bottom: 0px;
+  color: #031B4E;
 }
 
 #header_top li {
   display: inline-block;
-  color: #031B4E;
   padding:5px 10px;
 }
 
-#header_top li:hover {
+#header_top li a:hover {
   color: #006AFC;
 }
 
@@ -55,7 +56,6 @@ img {
 #jumbotron{
   margin-top: 70px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
-
   background-size: cover;
 }
 
@@ -97,4 +97,14 @@ img {
 #btn_account{
   color: white;
   background-color: #0080FF;
+}
+
+#btn_gmail {
+  position: relative;
+}
+
+#google{
+  position: absolute;
+  left:5px;
+  top:5px;
 }
