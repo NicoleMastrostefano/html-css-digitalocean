@@ -2,6 +2,11 @@
   border: 1px solid black;
 } */
 
+body {
+  color: #D2D2D2;
+}
+
+
 #header_top {
   width: 100%;
   padding: 20px 0px;
@@ -64,19 +69,21 @@ header img {
 
 #title {
   width: 100%;
-  color: white;
   margin-top: 70px;
 }
 
 #title h1 {
   font-size: 44px;
+  color: white;
 }
 
-#title p {
+#title p,
+#deploy p {
   font-size: 24px;
 }
 
 #login_box {
+  color: black;
   padding: 20px 15px;
   background-color: white;
   border-radius: 3px;
@@ -111,7 +118,75 @@ header img {
   top:5px;
 }
 
+#business {
+  background-color: #F3F5F9;
+  padding: 40px 0px;
 
+}
+
+#business h4 {
+  color: #5B6987;
+}
+
+#logos_box  {
+  margin: 40px 0px;
+}
+
+#logos_box li {
+  display: inline-block;
+  padding-right: 40px;
+  list-style: none;
+}
+
+#logos_box li img {
+  height: 100px;
+}
+
+#business a {
+  font-size: 18px;
+}
+
+#deploy {
+  color: #5B6987;
+  margin-top: 60px;
+  height: 500px;
+}
+
+#deploy h2,
+#deploy h3 {
+  color: #031B4E;
+  margin-left: 20px;
+}
+
+#deploy p {
+  margin-left: 20px;
+}
+
+#deploy_list {
+  border-left: 1px solid;
+  margin: 60px 0px;
+  line-height: 50px;
+}
+
+#deploy_list li {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+#deploy_list ul {
+    padding: 10px;
+}
+
+#float_left {
+  float: left;
+  width: 40%;
+}
+
+#float_right {
+  width: 60%;
+  float: right;
+}
 @media screen and (min-width:768px ) {
 
   #login_box {
@@ -126,14 +201,30 @@ header img {
     font-size: 22px;
   }
 
+  #deploy {
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+  }
+
+  #deploy_list{
+    text-align: left;
+  }
+}
+
 @media screen and (min-width:1200px) {
 
   #title h1 {
     font-size: 55px;
   }
-}
 
+  #logos_box li {
+    padding-right: 10px;
+  }
 
+  #logos_box {
+    text-align: center;
+  }
 
 
 }
