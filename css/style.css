@@ -1,6 +1,4 @@
-/* [class*='col-'] {
-  border: 1px solid black;
-} */
+
 
 body {
   color: #D2D2D2;
@@ -154,7 +152,7 @@ header img {
 #deploy h3,
 #design h2 {
   color: #031B4E;
-  margin-left: 20px;
+
 }
 
 #deploy h4 {
@@ -169,7 +167,6 @@ header img {
   border-left: 1px solid;
   margin-top: 80px ;
   line-height: 50px;
-  float: left;
 }
 
 #deploy_list li {
@@ -179,7 +176,6 @@ header img {
 
 #deploy_list li a {
   color: #5B6987;
-  text-decoration: none;
 }
 
 #deploy_list li a:hover {
@@ -190,7 +186,8 @@ header img {
     padding: 10px;
 }
 
-.deploy_text {
+.deploy_text,
+#deploy_text_fix {
   margin-top: 30px;
 }
 
@@ -235,7 +232,9 @@ header img {
   background-color: #0061FF;
 }
 
+#deploy_text_fix {
 
+}
 
 
 
@@ -290,7 +289,8 @@ header img {
     text-align: center;
   }
 
-  .deploy_text {
+  .deploy_text,
+  #deploy_text_fix {
   margin-top: 60px;
   }
 
