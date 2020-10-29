@@ -1,5 +1,4 @@
 
-
 body {
   color: #D2D2D2;
 }
@@ -19,8 +18,6 @@ body {
 }
 
 #header_top li a{
-  text-decoration: none;
-
   margin-bottom: 0px;
   color: #031B4E;
 }
@@ -66,7 +63,7 @@ header img {
 
 #title {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 #title h1 {
@@ -75,9 +72,17 @@ header img {
 }
 
 #title p,
-#deploy p,
 #design p {
-  font-size: 24px;
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #login_box {
@@ -136,7 +141,7 @@ header img {
 }
 
 #logos_box li img {
-  height: 100px;
+  height: 90px;
 }
 
 #business a {
@@ -148,25 +153,23 @@ header img {
   margin-top: 60px;
 }
 
-#deploy h2,
-#deploy h3,
-#design h2 {
-  color: #031B4E;
 
-}
 
-#deploy h4 {
+ h2,
+ h3,
+ h4 {
   color: #031B4E;
 }
 
 #deploy > p {
   padding-left :15px;
+  font-size: 22px;
 }
 
 #deploy_list {
   border-left: 1px solid;
-  margin-top: 80px ;
   line-height: 50px;
+  margin-top:30px;
 }
 
 #deploy_list li {
@@ -186,9 +189,16 @@ header img {
     padding: 10px;
 }
 
+h4 > p {
+  font-size: 16px;
+}
+
+
+
+
 .deploy_text,
 #deploy_text_fix {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #design {
@@ -200,11 +210,11 @@ header img {
 }
 
 #design p {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 #design img {
-  width: 70%;
+  width: 50%;
 
 }
 
@@ -212,13 +222,12 @@ header img {
   font-size: 40px;
 }
 
-#features {
-  color: #5B6987;
-}
 
 #design h2 {
   margin-bottom: 40px;
 }
+
+
 
 .dot {
   height: 10px;
@@ -232,13 +241,15 @@ header img {
   background-color: #0061FF;
 }
 
-#deploy_text_fix {
-
+#features {
+  color: #5B6987;
+  padding-top: 50px;
 }
 
 
-
-
+.features_box {
+  margin-top: 30px;
+}
 
 
 
@@ -264,15 +275,19 @@ header img {
   }
 
   #deploy {
-    width: 80%;
+    width: 90%;
     margin: 60px auto;
     text-align: center;
   }
 
   #deploy_list{
     text-align: left;
+    margin-left: 60px;
   }
 
+  #deploy_list{
+    margin: 70px 70px;
+  }
 }
 
 @media screen and (min-width:1200px) {
