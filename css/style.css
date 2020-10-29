@@ -178,15 +178,8 @@ header img {
     padding: 10px;
 }
 
-#float_left {
-  float: left;
-  width: 40%;
-}
 
-#float_right {
-  width: 60%;
-  float: right;
-}
+
 @media screen and (min-width:768px ) {
 
   #login_box {
