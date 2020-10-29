@@ -153,6 +153,9 @@ header img {
   margin-left: 20px;
 }
 
+#deploy > p {
+  padding-left :15px;
+}
 
 #deploy_list {
   border-left: 1px solid;
@@ -235,7 +238,6 @@ header img {
 
   #deploy_list{
     text-align: left;
-    padding-left: 60px;
   }
 }
 
