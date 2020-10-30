@@ -232,7 +232,7 @@ h4 > p {
   background-color: #0061FF;
 }
 
-#dot_full {
+.dot_full {
   background-color: #0061FF;
 }
 
@@ -273,6 +273,34 @@ h4 > p {
 #customers .col-xs-12:first-of-type {
   margin-bottom: 30px;
 }
+
+#development {
+  background-color: #F3F5F9;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#development h2 {
+  margin: 0px;
+
+}
+
+#rocker_box {
+  width: 320px;
+  height: 320px;
+  margin: 60px auto;
+  color: #5B6987;
+  background-color: white;
+}
+
+#rocker_box img {
+  padding: 35px 0px;
+}
+
+#development a {
+margin-top: 30px;
+}
+
 
 @media screen and (min-width:768px ) {
 
@@ -324,5 +352,9 @@ h4 > p {
   margin-top: 60px;
   }
 
+  #rocker_box {
+    width: 450px;
+    height: 320px;
+  }
 
 }
