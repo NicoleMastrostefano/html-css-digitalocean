@@ -255,12 +255,16 @@ h4 > p {
  color: white;
 }
 
-#customers .col-xs-3:first-of-type {
+#customers .col-xs-2:first-of-type {
   text-transform: uppercase;
 }
+#customers .col-xs-3 {
+  text-align: right;
 
+}
 #customers a {
   color: #03D7D2;
+  padding-right: 10px;
 }
 #customers a:hover {
   color: white;
@@ -273,11 +277,14 @@ h4 > p {
 #customers .col-xs-12:first-of-type {
   margin-bottom: 30px;
 }
+#customers a {
+text-align: right;
+}
 
 #development {
   background-color: #F3F5F9;
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0px;
 }
 
 #development h2 {
@@ -297,8 +304,52 @@ h4 > p {
   padding: 35px 0px;
 }
 
-#development a {
-margin-top: 30px;
+#start {
+  background-image: linear-gradient(to bottom, #1f31f2 ,#030ba5);
+  padding: 40px 0px;
+}
+
+#start h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+#btn_start {
+  color: #0061FF;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #041B4E;
+  padding: 60px 0px;
+  color:#D2D2D2;
+}
+footer img {
+  margin-bottom: 15px;
+}
+
+footer h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+footer ul li  {
+  line-height: 30px;
+}
+
+footer i{
+  color: #D2D2D2;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+.footer_icons {
+  font-size: 20px;
+  margin-top: 12px;
 }
 
 
