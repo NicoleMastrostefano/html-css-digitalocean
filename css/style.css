@@ -258,9 +258,9 @@ h4 > p {
 }
 
 
-[class*="col-"]{
+/* [class*="col-"]{
   border-bottom: 1px solid black;
-}
+} */
 
 #customers .col-xs-3:first-of-type {
   text-transform: uppercase;
@@ -270,7 +270,9 @@ h4 > p {
   color: #35C5F0;
 }
 
-
+#customers hr {
+  margin-top: 5px;
+}
 
 @media screen and (min-width:768px ) {
 
