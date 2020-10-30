@@ -150,6 +150,7 @@ h2 {
 #deploy {
   color: #5B6987;
   margin-top: 60px;
+
 }
 
  h2,
@@ -172,14 +173,11 @@ h2 {
 #deploy_list li {
   font-size: 20px;
   padding: 0;
+  cursor: pointer;
 }
 
-#deploy_list li a {
-  color: #5B6987;
-}
-
-#deploy_list li a:hover {
-  color: #006AFC;
+#deploy_list li:hover {
+  color: #031B4E;
 }
 
 #deploy_list ul {
@@ -227,6 +225,11 @@ h4 > p {
   border: 2px solid #0061FF;
   border-radius: 50%;
   display: inline-block;
+  cursor: pointer;
+}
+
+.dot:hover {
+  background-color: #0061FF;
 }
 
 #dot_full {
@@ -235,15 +238,37 @@ h4 > p {
 
 #features {
   color: #5B6987;
-  padding-top: 50px;
+  padding: 50px 0px;
 }
-
 
 .features_box {
   margin-top: 30px;
 }
 
+#customers {
+  background-color: blue;
+  padding: 60px 0px;
+  height: 700px;
+}
 
+#customers h2
+ {
+ color: white;
+ margin-bottom: 40px;
+}
+
+
+[class*="col-"]{
+  border-bottom: 1px solid black;
+}
+
+#customers .col-xs-3:first-of-type {
+  text-transform: uppercase;
+}
+
+#customers a {
+  color: #35C5F0;
+}
 
 
 
