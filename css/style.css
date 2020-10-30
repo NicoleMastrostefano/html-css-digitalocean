@@ -246,32 +246,31 @@ h4 > p {
 }
 
 #customers {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, #1f31f2 ,#030ba5);
   padding: 60px 0px;
-  height: 700px;
 }
 
-#customers h2
- {
+#customers h2 {
  color: white;
- margin-bottom: 40px;
 }
-
-
-/* [class*="col-"]{
-  border-bottom: 1px solid black;
-} */
 
 #customers .col-xs-3:first-of-type {
   text-transform: uppercase;
 }
 
 #customers a {
-  color: #35C5F0;
+  color: #03D7D2;
+}
+#customers a:hover {
+  color: white;
 }
 
 #customers hr {
-  margin-top: 5px;
+  margin: 5px 0px;
+}
+
+#customers .col-xs-12:first-of-type {
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width:768px ) {
@@ -303,8 +302,6 @@ h4 > p {
     margin: 70px 70px;
   }
 }
-
-
 
 
 @media screen and (min-width:1200px) {
