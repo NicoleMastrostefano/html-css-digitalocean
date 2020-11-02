@@ -150,7 +150,6 @@ h2 {
 #deploy {
   color: #5B6987;
   margin-top: 60px;
-
 }
 
  h2,
@@ -206,7 +205,8 @@ h4 > p {
 }
 
 #design img {
-  width: 50%;
+  width: 60%;
+  margin-bottom: 20px;
 
 }
 
@@ -258,14 +258,16 @@ h4 > p {
 #customers .col-xs-2:first-of-type {
   text-transform: uppercase;
 }
-#customers .col-xs-3 {
-  text-align: right;
 
+#customers .col-xs-4 {
+  text-align: right;
 }
+
 #customers a {
   color: #03D7D2;
   padding-right: 10px;
 }
+
 #customers a:hover {
   color: white;
 }
@@ -277,9 +279,6 @@ h4 > p {
 #customers .col-xs-12:first-of-type {
   margin-bottom: 30px;
 }
-#customers a {
-text-align: right;
-}
 
 #development {
   background-color: #F3F5F9;
@@ -289,19 +288,39 @@ text-align: right;
 
 #development h2 {
   margin: 0px;
+}
 
+#development ul {
+padding-inline-start: 0px;
+}
+
+#development ul li {
+  display: inline-block;
+}
+
+#development ul li i {
+  color: #5B6987;
+  line-height: 220px;
+  font-size: 36px;
+  vertical-align: text-bottom;
 }
 
 #rocker_box {
-  width: 320px;
-  height: 320px;
-  margin: 60px auto;
+  width: 340px;
+  padding-bottom: 50px ;
+  margin: 50px auto;
   color: #5B6987;
   background-color: white;
+  display: inline-block;
+}
+
+#rocker_box p {
+  font-size: 20px;
 }
 
 #rocker_box img {
-  padding: 35px 0px;
+  padding-top: 55px;
+  padding-bottom: 32px;
 }
 
 #start {
@@ -324,6 +343,7 @@ footer {
   padding: 60px 0px;
   color:#D2D2D2;
 }
+
 footer img {
   margin-bottom: 15px;
 }
@@ -403,9 +423,15 @@ footer p {
   margin-top: 60px;
   }
 
-  #rocker_box {
-    width: 450px;
-    height: 320px;
+  #design img {
+    width: 50%;
   }
 
+  #rocker_box {
+    width: 600px;
+  }
+
+  #features img {
+    height: 50px;
+  }
 }
